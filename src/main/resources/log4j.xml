@@ -42,7 +42,7 @@
 	</appender>
 
 	<appender name="error-out" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="File" value="${catalina.home}/logs/logs/error.log" />
+		<param name="File" value="${catalina.home}/logs/error.log" />
 		<param name="Threshold" value="error" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH\:mm\:ss} [%t] %-5p %c\:%L - %m%n" />
